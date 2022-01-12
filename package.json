@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^1.18.1",
+    "xpath-to-css": "^1.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node .\\node_modules\\testcafe\\bin\\testcafe.js --config-file test\\config\\.testcaferc.json",
+    "eslint": "node .\\node_modules\\eslint\\bin\\eslint.js framework test"
+  }
+}

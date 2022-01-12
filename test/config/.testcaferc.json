@@ -1,0 +1,9 @@
+{
+  "browsers": ["chrome --lang=en"],
+  "src": "C:\\Users\\m.zherlygin\\Desktop\\a1qa\\testcafe\\test\\test.runner.js",
+  "selectorTimeout": 5000,
+  "pageLoadTimeout": 5000,
+  "userVariables": {
+    "url": "https://store.steampowered.com/"
+  }
+}
